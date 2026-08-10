@@ -1,9 +1,32 @@
-cat > README.md <<'EOF'
 # 📄 Document QnA Bot
 
-A PDF Question Answering chatbot built using **Python, LangChain, Google Gemini, FAISS, and Streamlit**.
 
-The application allows users to upload a PDF and ask questions about its content. It uses a **Retrieval-Augmented Generation (RAG)** pipeline to retrieve relevant information from the document and generate context-aware answers using Google Gemini.
+### PDF QnA Chatbot
+
+![PDF QnA Chatbot](screenshots/QAchat1.png)
+
+### Question Answering
+
+![Question Answering](screenshots/QAchat2.png)
+
+
+## 🎥 Demo
+
+[▶️ Watch the Demo Video](videos/DocQAchat.mov)
+### PDF QnA Chatbot
+
+![PDF QnA Chatbot](screenshots/QAchat1.png)
+
+### Question Answering
+
+![Question Answering](screenshots/QAchat2.png)
+
+
+## 🎥 Demo
+
+[▶️ Watch the Demo Video](videos/DocQAchat.mov)A PDF Question Answering chatbot built using **Python, LangChain, Google Gemini, FAISS, and Streamlit**.
+
+The application allows users to upload a PDF and ask questions about its content. It uses a **Retrieval-Augmented Generation (RAG)** pipeline to retrieve relevant information from the document and provide context-aware answers using Google Gemini.
 
 ---
 
@@ -14,7 +37,7 @@ The application allows users to upload a PDF and ask questions about its content
 - ✂️ Split documents into smaller chunks
 - 🧠 Generate embeddings using Google Gemini
 - 🔎 Semantic similarity search using FAISS
-- 🤖 Generate answers using Gemini
+- 🤖 Answer questions using Gemini
 - 💬 Conversational chat interface
 - 🧾 Maintain conversation history
 - 🔄 Rewrite follow-up questions into standalone questions
@@ -23,7 +46,7 @@ The application allows users to upload a PDF and ask questions about its content
 
 ---
 
-## ��️ RAG Architecture
+## 🏗️ RAG Pipeline
 
 ```text
 PDF Upload
@@ -53,18 +76,3 @@ Relevant PDF Chunks
 Gemini LLM
      ↓
 Generated Answer
-
-## 📸 Screenshots
-
-### PDF QnA Chatbot
-
-![PDF QnA Chatbot](screenshots/QAchat1.png)
-
-### Question Answering
-
-![Question Answering](screenshots/QAchat2.png)
-
-
-## 🎥 Demo
-
-[▶️ Watch the Demo Video](videos/DocQAchat.mov)
