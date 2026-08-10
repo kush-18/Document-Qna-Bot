@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # 📄 Document QnA Bot
 
 A PDF Question Answering chatbot built using **Python, LangChain, Google Gemini, FAISS, and Streamlit**.
